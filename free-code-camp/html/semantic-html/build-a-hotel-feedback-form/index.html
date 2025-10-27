@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hotel Feedback Form</h1>
+        <p>Thank you for staying with us. Please provide feedback on your recent stay.</p>
+    </header>
+    <main>
+      <form method="POST" action="https://hotel-feedback.freecodecamp.org">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name (required):</label>
+            <input type="text" id="name" placeholder="e.g, John Doe">
+            <label for="email">Email address (required): </label>
+            <input type="email" id="email">
+            <label for="age">Age (optional):</label>
+            <input type="number" id="age" minlength="1" maxlength="2">
+        </fieldset>
+        <fieldset>
+            <legend>Was this your first time at our hotel?</legend>
+            <input type="checkbox" id="social">
+            <label for="social">Social Media Ads</label>
+            <input type="checkbox" id="Personal">
+            <label for="Personal">Personal Recommendation</label>
+            <input type="checkbox" id="location">
+            <label for="location">location</label>
+            <input type="checkbox" id="reputation" checked>
+            <label for="reputation">reputation</label>
+            <input type="checkbox" id="price">
+            <label for="price">Price</label>
+        </fieldset>
+        <fieldset>
+            <legend>Ratings</legend>
+            <label for="service">How was the service?</label>
+            <select name="serviceName" id="service">
+                <option value="Excellent">Excellent</option>
+                <option value="Very Good">Very Good</option>
+                <option value="Satisfactory">Satisfactory</option>
+                <option value="Good">Good</option>
+            </select>
+            <label for="food">How was the food?</label>
+            <select name="foodName" id="food">
+                <option value="Excellent">Excellent</option>
+                <option value="Very Good">Very Good</option>
+                <option value="Satisfactory">Satisfactory</option>
+                <option value="Good">Good</option>
+            </select>
+        </fieldset>
+        <label for="comment">Other Comments?</label>
+        <textarea name="comment" id="comment" rows="10" cols="20"></textarea>
+        <button>Submit</button>
+      </form>
+    </main>
+</body>
+
+</html>
