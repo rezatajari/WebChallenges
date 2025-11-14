@@ -1,4 +1,3 @@
-```markdown
 # Build a Bookstore Page
 
 ## Objective
