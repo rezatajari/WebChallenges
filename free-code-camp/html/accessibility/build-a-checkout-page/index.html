@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/spoon.jpg" alt="Glosbe">
+        <p>Left-handed spoon</p>
+        <span>$29.99</span>
+    </section>
+    <section>
+        <form action="">
+            <h2>Payment Information</h2>
+            <div>
+                <label for="card-name">Cardholder Name <span aria-hidden="true">*</span></label>
+                <input required id="card-name" id name="card-name" type="text">
+            </div>
+            <div><label for="card-number">Card Number <span aria-hidden="true">*</span></label>
+                <input aria-describedby="card-number-help" required id="card-number" name="card-number" type="text">
+                <p id="card-number-help">Please enter your 16-digit card number without spaces or dashes.</p>
+            </div>
+            <div><label for="Date">Expiry Date *</label>
+                <input type="date" name="Date" id="Date" placeholder="MM/YY">
+            </div>
+            <div>
+                <label for="input-id">CVV <span aria-hidden="true">*</span></label>
+                <input required type="text" id="input-id" name="input-id">
+            </div>
+            <button type="button">Place Order</button>
+        </form>
+    </section>
+</body>
+
+</html>
