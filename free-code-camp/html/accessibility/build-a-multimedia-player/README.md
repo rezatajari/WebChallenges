@@ -32,3 +32,61 @@ Complete all user stories listed below. Your project must satisfy every requirem
 ## Requirements
 
 You may design the layout however you like. Ensure each user story is met exactly so your project passes all automated tests.
+
+---
+
+<div dir="rtl">
+
+# ساخت یک پخش‌کنندهٔ چندرسانه‌ای
+
+یک پخش‌کنندهٔ چندرسانه‌ای بسازید که شامل یک فایل صوتی، یک ویدیو و یک متن Transcript خوانا باشد.  
+پروژه باید از نظر عملکرد مشابه نمونهٔ مرجع باشد، اما اجازه دارید چیدمان و سبک دلخواه خود را طراحی کنید.
+
+---
+
+## هدف
+
+تمام User Storyهای زیر را کامل کنید.  
+پروژه باید همهٔ تست‌ها را با موفقیت بگذراند.
+
+---
+
+## مطالب مورد توجه
+
+• باید یک المنت `<h1>` داشته باشید که عنوان اصلی صفحه باشد.  
+
+• باید سه المنت `<section>` بسازید.  
+
+• داخل اولین `<section>` باید یک تیتر `<h2>` قرار دهید که عنوان فایل صوتی باشد.  
+
+• زیر این تیتر باید یک المنت `<audio>` قرار دهید که دارای `controls` و همچنین `aria-label` باشد.  
+
+• داخل المنت `<audio>` باید یک `<source>` با آدرس معتبر و ویژگی‌های `src` و `type` قرار دهید.  
+  می‌توانید از این آدرس استفاده کنید:  
+  https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3  
+
+• داخل دومین `<section>` باید یک تیتر `<h2>` قرار دهید که عنوان ویدیو باشد.  
+
+• زیر این تیتر باید یک المنت `<video>` قرار دهید که دارای ویژگی‌های `controls`، `width` و `aria-label` باشد.  
+
+• داخل این ویدیو باید یک المنت `<source>` با آدرس معتبر و ویژگی‌های `src` و `type` قرار دهید.  
+  می‌توانید از این آدرس استفاده کنید:  
+  https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4  
+
+• زیر المنت `<source>` باید یک المنت `<track>` قرار دهید که شامل ویژگی‌های زیر باشد:  
+  • یک `src` معتبر که به فایل زیرنویس اشاره کند  
+  • ویژگی `kind`  
+  • ویژگی `srclang`  
+  • ویژگی `label`  
+
+• داخل سومین `<section>` باید یک تیتر `<h2>` قرار دهید که بخش را توصیف کند، مانند Transcript.  
+
+• زیر این تیتر باید یک المنت `<p>` قرار دهید که متن Transcript ویدیو را شامل شود.
+
+---
+
+## الزامات
+
+چیدمان و طراحی دلخواه است، اما تمام User Storyها باید **دقیقاً** رعایت شوند تا تست‌ها با موفقیت پاس شوند.
+
+</div>
