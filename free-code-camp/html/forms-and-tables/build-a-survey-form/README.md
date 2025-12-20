@@ -34,7 +34,7 @@ Create a survey form that collects user information and preferences, following t
 - The form is responsive and centered using Flexbox.
 
 ---
-پ
+
 <div dir="rtl">
 
 # ساخت فرم نظرسنجی
