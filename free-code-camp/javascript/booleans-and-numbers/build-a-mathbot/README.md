@@ -69,9 +69,8 @@ Create a program that:
 ---
 <div dir="rtl">
 
-# MathBot
 
-## معرفی
+## معرفی MathBot
 
 در این چالش، یک بات تعاملی ساده به نام **MathBot** با استفاده از JavaScript ساخته می‌شود.  
 MathBot متدهای مختلف شیء Math در JavaScript را معرفی می‌کند و رفتار آن‌ها را به‌صورت مرحله‌به‌مرحله و آموزشی نمایش می‌دهد.
