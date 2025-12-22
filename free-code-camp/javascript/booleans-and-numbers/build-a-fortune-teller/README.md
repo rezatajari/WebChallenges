@@ -59,7 +59,7 @@ A pleasant surprise is waiting for you very soon.
 
 <div dir="rtl">
 
-# فال‌گیر (Fortune Teller)
+# فال‌گیر
 
 ## معرفی
 
