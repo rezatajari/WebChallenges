@@ -108,8 +108,3 @@ By the end of this project, your program should:
 - تشخیص دهد چه زمانی نیاز به کوتاه‌کردن رشته وجود دارد
 - رشته‌های بلندتر از حد مجاز را کوتاه کند و `...` اضافه نماید
 - رشته‌های کوتاه یا هم‌اندازه را بدون تغییر برگرداند
-
-
-* Correctly determine when a string needs truncation
-* Truncate strings longer than the specified length and append `...`
-* Return shorter or equal-length strings without modification
