@@ -55,7 +55,7 @@ When you run the program, the console outputs a series of explanations and examp
 
 ---
 
-# چت‌بات معلم (Teacher Chatbot)
+# چت‌بات معلم
 
 ## معرفی پروژه
 
